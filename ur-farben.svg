@@ -6,7 +6,6 @@
 </style>
 
 <g class="farben">
-
   <g class="service">
     <g>
       <title>Leitung, Organe und Verwaltung</title>
@@ -21,7 +20,6 @@
       <rect id="svg_3" class="item" height="200" width="40" y="0" x="80" stroke-width="0" stroke="#000000" fill="#51541A"/>
     </g>
   </g>
-
   <g class="fakultaet">
     <g>
       <title>Fakultät für Rechtswissenschaft</title>
@@ -68,36 +66,42 @@
       <rect id="svg_14" class="item" height="200" width="40" y="0" x="520" stroke-width="0" stroke="#000000" fill="#004455"/>
     </g>
   </g>
-
-  <g>
-    <title>Universitätsbibliothek</title>
-    <rect id="svg_15" class="item" height="200" width="40" y="0" x="560" stroke-width="0" stroke="#000000" fill="#83525D"/>
+  <g class="service">
+    <g>
+      <title>Universitätsbibliothek</title>
+      <rect id="svg_15" class="item" height="200" width="40" y="0" x="560" stroke-width="0" stroke="#000000" fill="#83525D"/>
+    </g>
   </g>
-  <g>
-    <title>Zentrum für Sprache und Kommunikation</title>
-    <rect id="svg_16" class="item" height="200" width="40" y="0" x="600" stroke-width="0" stroke="#000000" fill="#5B3C41"/>
+  <g class="uebergreifend">
+    <g>
+      <title>Zentrum für Sprache und Kommunikation</title>
+      <rect id="svg_16" class="item" height="200" width="40" y="0" x="600" stroke-width="0" stroke="#000000" fill="#5B3C41"/>
+    </g>
+    <g>
+      <title>Europaeum (Ost-West-Zentrum)</title>
+      <rect id="svg_17" class="item" height="200" width="40" y="0" x="640" stroke-width="0" stroke="#000000" fill="#453E59"/>
+    </g>
+    <g>
+      <title>Zentrum für Hochschul- und Wissenschaftsdidaktik</title>
+      <rect id="svg_18" class="item" height="200" width="40" y="0" x="680" stroke-width="0" stroke="#000000" fill="#3B0041"/>
+    </g>
+    <g>
+      <title>Regensburger Universitätszentrum für Lehrerbildung</title>
+      <rect id="svg_19" class="item" height="200" width="40" y="0" x="720" stroke-width="0" stroke="#000000" fill="#866800"/>
+    </g>
   </g>
-  <g>
-    <title>Europaeum (Ost-West-Zentrum)</title>
-    <rect id="svg_17" class="item" height="200" width="40" y="0" x="640" stroke-width="0" stroke="#000000" fill="#453E59"/>
+  <g class="service">
+    <g>
+      <title>Zentrum für Weiterbildung</title>
+      <rect id="svg_20" class="item" height="200" width="40" y="0" x="760" stroke-width="0" stroke="#000000" fill="#416224"/>
+    </g>
   </g>
-  <g>
-    <title>Zentrum für Hochschul- und Wissenschaftsdidaktik</title>
-    <rect id="svg_18" class="item" height="200" width="40" y="0" x="680" stroke-width="0" stroke="#000000" fill="#3B0041"/>
+  <g class="uebergreifend">
+    <g>
+      <title>Sportzentrum</title>
+      <rect id="svg_21" class="item" height="200" width="40" y="0" x="800" stroke-width="0" stroke="#000000" fill="#006062"/>
+    </g>
   </g>
-  <g>
-    <title>Regensburger Universitätszentrum für Lehrerbildung</title>
-    <rect id="svg_19" class="item" height="200" width="40" y="0" x="720" stroke-width="0" stroke="#000000" fill="#866800"/>
-  </g>
-  <g>
-    <title>Zentrum für Weiterbildung</title>
-    <rect id="svg_20" class="item" height="200" width="40" y="0" x="760" stroke-width="0" stroke="#000000" fill="#416224"/>
-  </g>
-  <g>
-    <title>Sportzentrum</title>
-    <rect id="svg_21" class="item" height="200" width="40" y="0" x="800" stroke-width="0" stroke="#000000" fill="#006062"/>
-  </g>
-
   <g class="service">
     <g>
       <title>Rechenzentrum</title>
