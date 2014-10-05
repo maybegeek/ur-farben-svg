@@ -14,29 +14,41 @@
   <g class="service">
     <g>
       <title>Leitung, Organe und Verwaltung</title>
+      <a xlink:href="http://www.uni-regensburg.de/verwaltung/organigramm/index.html">
       <rect id="svg_1" class="item" height="200" width="40" y="0" x="0" stroke="#34535D" fill="#34535D"/>
+      </a>
     </g>
     <g>
       <title>Chancengleichheit und Familie</title>
+      <a xlink:href="http://www.uni-regensburg.de/chancengleichheit/">
       <rect id="svg_2" class="item" height="200" width="40" y="0" x="40" stroke="#5F002F" fill="#5F002F"/>
+      </a>
     </g>
     <g>
       <title>Service-Einrichtungen der Verwaltung für Studierende</title>
+      <a xlink:href="http://www.uni-regensburg.de/studium/studentenkanzlei/">
       <rect id="svg_3" class="item" height="200" width="40" y="0" x="80" stroke="#51541A" fill="#51541A"/>
+      </a>
     </g>
   </g>
   <g class="fakultaet">
     <g>
       <title>Fakultät für Rechtswissenschaft</title>
+      <a xlink:href="http://www.uni-regensburg.de/rechtswissenschaft/fakultaet/">
       <rect id="svg_4" class="item" height="200" width="40" y="0" x="120" stroke="#A4A90C" fill="#A4A90C"/>
+      </a>
     </g>
     <g>
       <title>Fakultät für Wirtschaftswissenschaften</title>
+      <a xlink:href="http://www-wiwi.uni-regensburg.de/Home/index.html.de">
       <rect id="svg_5" class="item" height="200" width="40" y="0" x="160" stroke="#8B8600" fill="#8B8600"/>
+      </a>
     </g>
     <g>
       <title>Fakultät für Katholische Theologie</title>
+      <a xlink:href="http://www.uni-regensburg.de/theologie/">
       <rect id="svg_6" class="item" height="200" width="40" y="0" x="200" stroke="#BD9600" fill="#BD9600"/>
+      </a>
     </g>
     <g>
       <title>Fakultät für Philosophie, Kunst-, Geschichts- und Gesellschaftswissenschaften</title>
