@@ -11,10 +11,35 @@ rect.item {
   stroke-opacity:0.4;
   cursor:pointer;
 }
+
 rect.item:hover {
   opacity:1.0;
   stroke-width:0.4px;
 }
+
+rect#ur_1 { fill:#34535D; stroke:#34535D; } <!-- Leitung, Organe und Verwaltung -->
+rect#ur_2 { fill:#5F002F; stroke:#5F002F; } <!-- Chancengleichheit und Familie -->
+rect#ur_3 { fill:#51541A; stroke:#51541A; } <!-- Service-Einrichtungen der Verwaltung für Studierende -->
+rect#ur_4 { fill:#A4A90C; stroke:#A4A90C; } <!-- Fakultät für Rechtswissenschaft -->
+rect#ur_5 { fill:#8B8600; stroke:#8B8600; } <!-- Fakultät für Wirtschaftswissenschaften -->
+rect#ur_6 { fill:#BD9600; stroke:#BD9600; } <!-- Fakultät für Katholische Theologie -->
+rect#ur_7 { fill:#BD4E00; stroke:#BD4E00; } <!-- Fakultät für Philosophie, Kunst-, Geschichts- und Gesellschaftswissenschaften -->
+rect#ur_8 { fill:#990022; stroke:#990022; } <!-- Fakultät für Psychologie, Pädagogik und Sportwissenschaft -->
+rect#ur_9 { fill:#7D003C; stroke:#7D003C; } <!-- Fakultät für Sprach-, Literatur- und Kulturwissenschaften -->
+rect#ur_10 { fill:#3F9300; stroke:#3F9300; } <!-- Fakultät für Biologie und Vorklinische Medizin -->
+rect#ur_11 { fill:#007C5F; stroke:#007C5F; } <!-- Fakultät für Mathematik -->
+rect#ur_12 { fill:#006E76; stroke:#006E76; } <!-- Fakultät für Physik -->
+rect#ur_13 { fill:#006C8E; stroke:#006C8E; } <!-- Fakultät für Chemie und Pharmazie -->
+rect#ur_14 { fill:#004455; stroke:#004455; } <!-- Fakultät für Medizin -->
+rect#ur_15 { fill:#83525D; stroke:#83525D; } <!-- Universitätsbibliothek -->
+rect#ur_16 { fill:#5B3C41; stroke:#5B3C41; } <!-- Zentrum für Sprache und Kommunikation -->
+rect#ur_17 { fill:#453E59; stroke:#453E59; } <!-- Europaeum (Ost-West-Zentrum) -->
+rect#ur_18 { fill:#3B0041; stroke:#3B0041; } <!-- Zentrum für Hochschul- und Wissenschaftsdidaktik -->
+rect#ur_19 { fill:#866800; stroke:#866800; } <!-- Regensburger Universitätszentrum für Lehrerbildung -->
+rect#ur_20 { fill:#416224; stroke:#416224; } <!-- Zentrum für Weiterbildung -->
+rect#ur_21 { fill:#006062; stroke:#006062; } <!-- Sportzentrum -->
+rect#ur_22 { fill:#032352; stroke:#032352; } <!-- Rechenzentrum -->
+
 </style>
 
 <g class="farben">
@@ -22,146 +47,124 @@ rect.item:hover {
     <g>
       <title>Leitung, Organe und Verwaltung</title>
       <a xlink:href="http://www.uni-regensburg.de/verwaltung/organigramm/index.html">
-      <rect id="svg_1" class="item" height="200" width="40" y="0" x="0" stroke="#34535D" fill="#34535D"/>
-      </a>
+      <rect id="ur_1" class="item" height="200" width="40" y="0" x="0"/></a>
     </g>
     <g>
       <title>Chancengleichheit und Familie</title>
       <a xlink:href="http://www.uni-regensburg.de/chancengleichheit/">
-      <rect id="svg_2" class="item" height="200" width="40" y="0" x="40" stroke="#5F002F" fill="#5F002F"/>
-      </a>
+      <rect id="ur_2" class="item" height="200" width="40" y="0" x="40"/></a>
     </g>
     <g>
       <title>Service-Einrichtungen der Verwaltung für Studierende</title>
       <a xlink:href="http://www.uni-regensburg.de/studium/studentenkanzlei/">
-      <rect id="svg_3" class="item" height="200" width="40" y="0" x="80" stroke="#51541A" fill="#51541A"/>
-      </a>
+      <rect id="ur_3" class="item" height="200" width="40" y="0" x="80"/></a>
     </g>
   </g>
   <g class="fakultaet">
     <g>
       <title>Fakultät für Rechtswissenschaft</title>
       <a xlink:href="http://www.uni-regensburg.de/rechtswissenschaft/fakultaet/">
-      <rect id="svg_4" class="item" height="200" width="40" y="0" x="120" stroke="#A4A90C" fill="#A4A90C"/>
-      </a>
+      <rect id="ur_4" class="item" height="200" width="40" y="0" x="120"/></a>
     </g>
     <g>
       <title>Fakultät für Wirtschaftswissenschaften</title>
       <a xlink:href="http://www-wiwi.uni-regensburg.de/Home/index.html.de">
-      <rect id="svg_5" class="item" height="200" width="40" y="0" x="160" stroke="#8B8600" fill="#8B8600"/>
-      </a>
+      <rect id="ur_5" class="item" height="200" width="40" y="0" x="160"/></a>
     </g>
     <g>
       <title>Fakultät für Katholische Theologie</title>
       <a xlink:href="http://www.uni-regensburg.de/theologie/">
-      <rect id="svg_6" class="item" height="200" width="40" y="0" x="200" stroke="#BD9600" fill="#BD9600"/>
-      </a>
+      <rect id="ur_6" class="item" height="200" width="40" y="0" x="200"/></a>
     </g>
     <g>
       <title>Fakultät für Philosophie, Kunst-, Geschichts- und Gesellschaftswissenschaften</title>
       <a xlink:href="">
-      <rect id="svg_7" class="item" height="200" width="40" y="0" x="240" stroke="#BD4E00" fill="#BD4E00"/>
-      </a>
+      <rect id="ur_7" class="item" height="200" width="40" y="0" x="240"/></a>
     </g>
     <g>
       <title>Fakultät für Psychologie, Pädagogik und Sportwissenschaft</title>
       <a xlink:href="">
-      <rect id="svg_8" class="item" height="200" width="40" y="0" x="280" stroke="#990022" fill="#990022"/>
-      </a>
+      <rect id="ur_8" class="item" height="200" width="40" y="0" x="280"/></a>
     </g>
     <g>
       <title>Fakultät für Sprach-, Literatur- und Kulturwissenschaften</title>
       <a xlink:href="">
-      <rect id="svg_9" class="item" height="200" width="40" y="0" x="320" stroke="#7D003C" fill="#7D003C"/>
-      </a>
+      <rect id="ur_9" class="item" height="200" width="40" y="0" x="320"/></a>
     </g>
     <g>
       <title>Fakultät für Biologie und Vorklinische Medizin</title>
       <a xlink:href="">
-      <rect id="svg_10" class="item" height="200" width="40" y="0" x="360" stroke="#3F9300" fill="#3F9300"/>
-      </a>
+      <rect id="ur_10" class="item" height="200" width="40" y="0" x="360"/></a>
     </g>
     <g>
       <title>Fakultät für Mathematik</title>
       <a xlink:href="">
-      <rect id="svg_11" class="item" height="200" width="40" y="0" x="400" stroke="#007C5F" fill="#007C5F"/>
-      </a>
+      <rect id="ur_11" class="item" height="200" width="40" y="0" x="400"/></a>
     </g>
     <g>
       <title>Fakultät für Physik</title>
       <a xlink:href="">
-      <rect id="svg_12" class="item" height="200" width="40" y="0" x="440" stroke="#006E76" fill="#006E76"/>
-      </a>
+      <rect id="ur_12" class="item" height="200" width="40" y="0" x="440"/></a>
     </g>
     <g>
       <title>Fakultät für Chemie und Pharmazie</title>
       <a xlink:href="">
-      <rect id="svg_13" class="item" height="200" width="40" y="0" x="480" stroke="#006C8E" fill="#006C8E"/>
-      </a>
+      <rect id="ur_13" class="item" height="200" width="40" y="0" x="480"/></a>
     </g>
     <g>
       <title>Fakultät für Medizin</title>
       <a xlink:href="">
-      <rect id="svg_14" class="item" height="200" width="40" y="0" x="520" stroke="#004455" fill="#004455"/>
-      </a>
+      <rect id="ur_14" class="item" height="200" width="40" y="0" x="520"/></a>
     </g>
   </g>
   <g class="service">
     <g>
       <title>Universitätsbibliothek</title>
       <a xlink:href="">
-      <rect id="svg_15" class="item" height="200" width="40" y="0" x="560" stroke="#83525D" fill="#83525D"/>
-      </a>
+      <rect id="ur_15" class="item" height="200" width="40" y="0" x="560"/></a>
     </g>
   </g>
   <g class="uebergreifend">
     <g>
       <title>Zentrum für Sprache und Kommunikation</title>
       <a xlink:href="">
-      <rect id="svg_16" class="item" height="200" width="40" y="0" x="600" stroke="#5B3C41" fill="#5B3C41"/>
-      </a>
+      <rect id="ur_16" class="item" height="200" width="40" y="0" x="600"/></a>
     </g>
     <g>
       <title>Europaeum (Ost-West-Zentrum)</title>
       <a xlink:href="">
-      <rect id="svg_17" class="item" height="200" width="40" y="0" x="640" stroke="#453E59" fill="#453E59"/>
-      </a>
+      <rect id="ur_17" class="item" height="200" width="40" y="0" x="640"/></a>
     </g>
     <g>
       <title>Zentrum für Hochschul- und Wissenschaftsdidaktik</title>
       <a xlink:href="">
-      <rect id="svg_18" class="item" height="200" width="40" y="0" x="680" stroke="#3B0041" fill="#3B0041"/>
-      </a>
+      <rect id="ur_18" class="item" height="200" width="40" y="0" x="680"/></a>
     </g>
     <g>
       <title>Regensburger Universitätszentrum für Lehrerbildung</title>
       <a xlink:href="">
-      <rect id="svg_19" class="item" height="200" width="40" y="0" x="720" stroke="#866800" fill="#866800"/>
-      </a>
+      <rect id="ur_19" class="item" height="200" width="40" y="0" x="720"/></a>
     </g>
   </g>
   <g class="service">
     <g>
       <title>Zentrum für Weiterbildung</title>
       <a xlink:href="">
-      <rect id="svg_20" class="item" height="200" width="40" y="0" x="760" stroke="#416224" fill="#416224"/>
-      </a>
+      <rect id="ur_20" class="item" height="200" width="40" y="0" x="760"/></a>
     </g>
   </g>
   <g class="uebergreifend">
     <g>
       <title>Sportzentrum</title>
       <a xlink:href="">
-      <rect id="svg_21" class="item" height="200" width="40" y="0" x="800" stroke="#006062" fill="#006062"/>
-      </a>
+      <rect id="ur_21" class="item" height="200" width="40" y="0" x="800"/></a>
     </g>
   </g>
   <g class="service">
     <g>
       <title>Rechenzentrum</title>
       <a xlink:href="">
-      <rect id="svg_22" class="item" height="200" width="40" y="0" x="840" stroke="#032352" fill="#032352"/>
-      </a>
+      <rect id="ur_22" class="item" height="200" width="40" y="0" x="840"/></a>
     </g>
   </g>
 </g>
