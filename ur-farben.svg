@@ -17,7 +17,7 @@ rect.item {
 rect.item:hover {
   opacity:1.0;
   stroke-width:0.4px;
-  transform:scale(1,1.6);
+  transform:scale(1,2);
 }
 
 rect#ur_1 { fill:#34535D; stroke:#34535D; } <!-- Leitung, Organe und Verwaltung -->
