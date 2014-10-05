@@ -6,13 +6,13 @@
 
 <style> 
 rect.item {
-  stroke-width:1px;
   opacity:0.8;
+  stroke-width:0.4px;
   stroke-opacity:0.4;
 }
 rect.item:hover {
-  stroke-width:1px;
   opacity:1.0;
+  stroke-width:0.4px;
 }
 </style>
 
