@@ -9,6 +9,7 @@ rect.item {
   opacity:0.8;
   stroke-width:0.4px;
   stroke-opacity:0.4;
+  cursor:pointer;
 }
 rect.item:hover {
   opacity:1.0;
@@ -58,77 +59,109 @@ rect.item:hover {
     </g>
     <g>
       <title>Fakultät für Philosophie, Kunst-, Geschichts- und Gesellschaftswissenschaften</title>
+      <a xlink:href="">
       <rect id="svg_7" class="item" height="200" width="40" y="0" x="240" stroke="#BD4E00" fill="#BD4E00"/>
+      </a>
     </g>
     <g>
       <title>Fakultät für Psychologie, Pädagogik und Sportwissenschaft</title>
+      <a xlink:href="">
       <rect id="svg_8" class="item" height="200" width="40" y="0" x="280" stroke="#990022" fill="#990022"/>
+      </a>
     </g>
     <g>
       <title>Fakultät für Sprach-, Literatur- und Kulturwissenschaften</title>
+      <a xlink:href="">
       <rect id="svg_9" class="item" height="200" width="40" y="0" x="320" stroke="#7D003C" fill="#7D003C"/>
+      </a>
     </g>
     <g>
       <title>Fakultät für Biologie und Vorklinische Medizin</title>
+      <a xlink:href="">
       <rect id="svg_10" class="item" height="200" width="40" y="0" x="360" stroke="#3F9300" fill="#3F9300"/>
+      </a>
     </g>
     <g>
       <title>Fakultät für Mathematik</title>
+      <a xlink:href="">
       <rect id="svg_11" class="item" height="200" width="40" y="0" x="400" stroke="#007C5F" fill="#007C5F"/>
+      </a>
     </g>
     <g>
       <title>Fakultät für Physik</title>
+      <a xlink:href="">
       <rect id="svg_12" class="item" height="200" width="40" y="0" x="440" stroke="#006E76" fill="#006E76"/>
+      </a>
     </g>
     <g>
       <title>Fakultät für Chemie und Pharmazie</title>
+      <a xlink:href="">
       <rect id="svg_13" class="item" height="200" width="40" y="0" x="480" stroke="#006C8E" fill="#006C8E"/>
+      </a>
     </g>
     <g>
       <title>Fakultät für Medizin</title>
+      <a xlink:href="">
       <rect id="svg_14" class="item" height="200" width="40" y="0" x="520" stroke="#004455" fill="#004455"/>
+      </a>
     </g>
   </g>
   <g class="service">
     <g>
       <title>Universitätsbibliothek</title>
+      <a xlink:href="">
       <rect id="svg_15" class="item" height="200" width="40" y="0" x="560" stroke="#83525D" fill="#83525D"/>
+      </a>
     </g>
   </g>
   <g class="uebergreifend">
     <g>
       <title>Zentrum für Sprache und Kommunikation</title>
+      <a xlink:href="">
       <rect id="svg_16" class="item" height="200" width="40" y="0" x="600" stroke="#5B3C41" fill="#5B3C41"/>
+      </a>
     </g>
     <g>
       <title>Europaeum (Ost-West-Zentrum)</title>
+      <a xlink:href="">
       <rect id="svg_17" class="item" height="200" width="40" y="0" x="640" stroke="#453E59" fill="#453E59"/>
+      </a>
     </g>
     <g>
       <title>Zentrum für Hochschul- und Wissenschaftsdidaktik</title>
+      <a xlink:href="">
       <rect id="svg_18" class="item" height="200" width="40" y="0" x="680" stroke="#3B0041" fill="#3B0041"/>
+      </a>
     </g>
     <g>
       <title>Regensburger Universitätszentrum für Lehrerbildung</title>
+      <a xlink:href="">
       <rect id="svg_19" class="item" height="200" width="40" y="0" x="720" stroke="#866800" fill="#866800"/>
+      </a>
     </g>
   </g>
   <g class="service">
     <g>
       <title>Zentrum für Weiterbildung</title>
+      <a xlink:href="">
       <rect id="svg_20" class="item" height="200" width="40" y="0" x="760" stroke="#416224" fill="#416224"/>
+      </a>
     </g>
   </g>
   <g class="uebergreifend">
     <g>
       <title>Sportzentrum</title>
+      <a xlink:href="">
       <rect id="svg_21" class="item" height="200" width="40" y="0" x="800" stroke="#006062" fill="#006062"/>
+      </a>
     </g>
   </g>
   <g class="service">
     <g>
       <title>Rechenzentrum</title>
+      <a xlink:href="">
       <rect id="svg_22" class="item" height="200" width="40" y="0" x="840" stroke="#032352" fill="#032352"/>
+      </a>
     </g>
   </g>
 </g>
