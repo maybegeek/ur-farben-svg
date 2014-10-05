@@ -1,13 +1,15 @@
 <svg id="urpalette" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
 
 <style> 
-.item {
-  opacity:0.8;
+rect.item {
   stroke-width:1px;
+  opacity:0.8;
+  stroke-opacity:0.4;
 }
-.item:hover {
+rect.item:hover {
+  stroke-width:1px;
   opacity:1.0;
- }
+}
 </style>
 
 <g class="farben">
