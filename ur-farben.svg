@@ -6,7 +6,7 @@
 
 <style type="text/css">
 rect.item {
-  transition: all 0.4s ease;
+  transition: all 0.2s ease;
   opacity:0.8;
   stroke-width:0.4px;
   stroke-opacity:0.4;
@@ -16,6 +16,7 @@ rect.item {
 rect.item:hover {
   opacity:1.0;
   stroke-width:0.4px;
+  stroke-opacity:0.4;
   transform:scale(1,2);
 }
 
