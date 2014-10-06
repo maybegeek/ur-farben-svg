@@ -4,7 +4,7 @@
      xmlns="http://www.w3.org/2000/svg"
      xmlns:xlink="http://www.w3.org/1999/xlink">
 
-<style> 
+<style type="text/css">
 rect.item {
   transition: all 0.4s ease;
   opacity:0.8;
@@ -41,7 +41,6 @@ rect#ur_19 { fill:#866800; stroke:#866800; } <!-- Regensburger Universitätszent
 rect#ur_20 { fill:#416224; stroke:#416224; } <!-- Zentrum für Weiterbildung -->
 rect#ur_21 { fill:#006062; stroke:#006062; } <!-- Sportzentrum -->
 rect#ur_22 { fill:#032352; stroke:#032352; } <!-- Rechenzentrum -->
-
 </style>
 
 <g id="farben">
