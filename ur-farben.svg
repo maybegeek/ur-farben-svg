@@ -19,28 +19,28 @@ rect.item:hover {
   transform:scale(1,2);
 }
 
-rect#ur_1 { fill:#34535D; stroke:#34535D; } <!-- Leitung, Organe und Verwaltung -->
-rect#ur_2 { fill:#5F002F; stroke:#5F002F; } <!-- Chancengleichheit und Familie -->
-rect#ur_3 { fill:#51541A; stroke:#51541A; } <!-- Service-Einrichtungen der Verwaltung für Studierende -->
-rect#ur_4 { fill:#A4A90C; stroke:#A4A90C; } <!-- Fakultät für Rechtswissenschaft -->
-rect#ur_5 { fill:#8B8600; stroke:#8B8600; } <!-- Fakultät für Wirtschaftswissenschaften -->
-rect#ur_6 { fill:#BD9600; stroke:#BD9600; } <!-- Fakultät für Katholische Theologie -->
-rect#ur_7 { fill:#BD4E00; stroke:#BD4E00; } <!-- Fakultät für Philosophie, Kunst-, Geschichts- und Gesellschaftswissenschaften -->
-rect#ur_8 { fill:#990022; stroke:#990022; } <!-- Fakultät für Psychologie, Pädagogik und Sportwissenschaft -->
-rect#ur_9 { fill:#7D003C; stroke:#7D003C; } <!-- Fakultät für Sprach-, Literatur- und Kulturwissenschaften -->
-rect#ur_10 { fill:#3F9300; stroke:#3F9300; } <!-- Fakultät für Biologie und Vorklinische Medizin -->
-rect#ur_11 { fill:#007C5F; stroke:#007C5F; } <!-- Fakultät für Mathematik -->
-rect#ur_12 { fill:#006E76; stroke:#006E76; } <!-- Fakultät für Physik -->
-rect#ur_13 { fill:#006C8E; stroke:#006C8E; } <!-- Fakultät für Chemie und Pharmazie -->
-rect#ur_14 { fill:#004455; stroke:#004455; } <!-- Fakultät für Medizin -->
-rect#ur_15 { fill:#83525D; stroke:#83525D; } <!-- Universitätsbibliothek -->
-rect#ur_16 { fill:#5B3C41; stroke:#5B3C41; } <!-- Zentrum für Sprache und Kommunikation -->
-rect#ur_17 { fill:#453E59; stroke:#453E59; } <!-- Europaeum (Ost-West-Zentrum) -->
-rect#ur_18 { fill:#3B0041; stroke:#3B0041; } <!-- Zentrum für Hochschul- und Wissenschaftsdidaktik -->
-rect#ur_19 { fill:#866800; stroke:#866800; } <!-- Regensburger Universitätszentrum für Lehrerbildung -->
-rect#ur_20 { fill:#416224; stroke:#416224; } <!-- Zentrum für Weiterbildung -->
-rect#ur_21 { fill:#006062; stroke:#006062; } <!-- Sportzentrum -->
-rect#ur_22 { fill:#032352; stroke:#032352; } <!-- Rechenzentrum -->
+rect#ur_1 { fill:#34535D; stroke:#34535D; } /* Leitung, Organe und Verwaltung */
+rect#ur_2 { fill:#5F002F; stroke:#5F002F; } /* Chancengleichheit und Familie */
+rect#ur_3 { fill:#51541A; stroke:#51541A; } /* Service-Einrichtungen der Verwaltung für Studierende */
+rect#ur_4 { fill:#A4A90C; stroke:#A4A90C; } /* Fakultät für Rechtswissenschaft */
+rect#ur_5 { fill:#8B8600; stroke:#8B8600; } /* Fakultät für Wirtschaftswissenschaften */
+rect#ur_6 { fill:#BD9600; stroke:#BD9600; } /* Fakultät für Katholische Theologie */
+rect#ur_7 { fill:#BD4E00; stroke:#BD4E00; } /* Fakultät für Philosophie, Kunst-, Geschichts- und Gesellschaftswissenschaften */
+rect#ur_8 { fill:#990022; stroke:#990022; } /* Fakultät für Psychologie, Pädagogik und Sportwissenschaft */
+rect#ur_9 { fill:#7D003C; stroke:#7D003C; } /* Fakultät für Sprach-, Literatur- und Kulturwissenschaften */
+rect#ur_10 { fill:#3F9300; stroke:#3F9300; } /* Fakultät für Biologie und Vorklinische Medizin */
+rect#ur_11 { fill:#007C5F; stroke:#007C5F; } /* Fakultät für Mathematik */
+rect#ur_12 { fill:#006E76; stroke:#006E76; } /* Fakultät für Physik */
+rect#ur_13 { fill:#006C8E; stroke:#006C8E; } /* Fakultät für Chemie und Pharmazie */
+rect#ur_14 { fill:#004455; stroke:#004455; } /* Fakultät für Medizin */
+rect#ur_15 { fill:#83525D; stroke:#83525D; } /* Universitätsbibliothek */
+rect#ur_16 { fill:#5B3C41; stroke:#5B3C41; } /* Zentrum für Sprache und Kommunikation */
+rect#ur_17 { fill:#453E59; stroke:#453E59; } /* Europaeum (Ost-West-Zentrum) */
+rect#ur_18 { fill:#3B0041; stroke:#3B0041; } /* Zentrum für Hochschul- und Wissenschaftsdidaktik */
+rect#ur_19 { fill:#866800; stroke:#866800; } /* Regensburger Universitätszentrum für Lehrerbildung */
+rect#ur_20 { fill:#416224; stroke:#416224; } /* Zentrum für Weiterbildung */
+rect#ur_21 { fill:#006062; stroke:#006062; } /* Sportzentrum */
+rect#ur_22 { fill:#032352; stroke:#032352; } /* Rechenzentrum */
 </style>
 
 <g id="farben">
