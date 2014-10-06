@@ -44,7 +44,7 @@ rect#ur_22 { fill:#032352; stroke:#032352; } <!-- Rechenzentrum -->
 
 </style>
 
-<g class="farben">
+<g id="farben">
   <g class="service">
     <g>
       <title>Leitung, Organe und Verwaltung</title>
