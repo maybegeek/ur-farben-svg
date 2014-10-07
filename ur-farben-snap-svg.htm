@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>svg snap js test</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="snap.svg-min.js"></script>
+  <style type="text/css">
+    rect#ur_1 { fill:#34535D } /* Leitung, Organe und Verwaltung */
+    rect#ur_2 { fill:#5F002F  } /* Chancengleichheit und Familie */
+    rect#ur_3 { fill:#51541A  } /* Service-Einrichtungen der Verwaltung für Studierende */
+    rect#ur_4 { fill:#A4A90C  } /* Fakultät für Rechtswissenschaft */
+    rect#ur_5 { fill:#8B8600  } /* Fakultät für Wirtschaftswissenschaften */
+    rect#ur_6 { fill:#BD9600  } /* Fakultät für Katholische Theologie */
+    rect#ur_7 { fill:#BD4E00  } /* Fakultät für Philosophie, Kunst-, Geschichts- und Gesellschaftswissenschaften */
+    rect#ur_8 { fill:#990022  } /* Fakultät für Psychologie, Pädagogik und Sportwissenschaft */
+    rect#ur_9 { fill:#7D003C  } /* Fakultät für Sprach-, Literatur- und Kulturwissenschaften */
+    rect#ur_10 { fill:#3F9300 } /* Fakultät für Biologie und Vorklinische Medizin */
+    rect#ur_11 { fill:#007C5F } /* Fakultät für Mathematik */
+    rect#ur_12 { fill:#006E76 } /* Fakultät für Physik */
+    rect#ur_13 { fill:#006C8E } /* Fakultät für Chemie und Pharmazie */
+    rect#ur_14 { fill:#004455 } /* Fakultät für Medizin */
+    rect#ur_15 { fill:#83525D } /* Universitätsbibliothek */
+    rect#ur_16 { fill:#5B3C41 } /* Zentrum für Sprache und Kommunikation */
+    rect#ur_17 { fill:#453E59 } /* Europaeum (Ost-West-Zentrum) */
+    rect#ur_18 { fill:#3B0041 } /* Zentrum für Hochschul- und Wissenschaftsdidaktik */
+    rect#ur_19 { fill:#866800 } /* Regensburger Universitätszentrum für Lehrerbildung */
+    rect#ur_20 { fill:#416224 } /* Zentrum für Weiterbildung */
+    rect#ur_21 { fill:#006062 } /* Sportzentrum */
+    rect#ur_22 { fill:#032352 } /* Rechenzentrum */
+
+    rect.item {
+      transition: all 0.2s ease;
+      opacity:0.8;
+      cursor:pointer;
+    }
+
+    rect.item:hover {
+      opacity:1.0;
+      transform:scale(1,4);
+    }
+  </style>
+</head>
+<body>
+
+<h1>svg snap js test</h1>
+<svg id="svgout" width="1100" height="200"></svg>
+
+  <script>
+
+  var title_1 = Snap.parse('<title>Leitung, Organe und Verwaltung</title>');
+  var title_2 = Snap.parse('<title>Chancengleichheit und Familie</title>');
+  var title_3 = Snap.parse('<title>Service-Einrichtungen der Verwaltung für Studierende</title>');
+  var title_4 = Snap.parse('<title>Fakultät für Rechtswissenschaft</title>');
+  var title_5 = Snap.parse('<title>Fakultät für Wirtschaftswissenschaften</title>');
+  var title_6 = Snap.parse('<title>Fakultät für Katholische Theologie</title>');
+  var title_7 = Snap.parse('<title>Fakultät für Philosophie, Kunst-, Geschichts- und Gesellschaftswissenschaften</title>');
+  var title_8 = Snap.parse('<title>Fakultät für Psychologie, Pädagogik und Sportwissenschaft</title>');
+  var title_9 = Snap.parse('<title>Fakultät für Sprach-, Literatur- und Kulturwissenschaften</title>');
+  var title_10 = Snap.parse('<title>Fakultät für Biologie und Vorklinische Medizin</title>');
+  var title_11 = Snap.parse('<title>Fakultät für Mathematik</title>');
+  var title_12 = Snap.parse('<title>Fakultät für Physik</title>');
+  var title_13 = Snap.parse('<title>Fakultät für Chemie und Pharmazie</title>');
+  var title_14 = Snap.parse('<title>Fakultät für Medizin</title>');
+  var title_15 = Snap.parse('<title>Universitätsbibliothek</title>');
+  var title_16 = Snap.parse('<title>Zentrum für Sprache und Kommunikation</title>');
+  var title_17 = Snap.parse('<title>Europaeum (Ost-West-Zentrum)</title>');
+  var title_18 = Snap.parse('<title>Zentrum für Hochschul- und Wissenschaftsdidaktik</title>');
+  var title_19 = Snap.parse('<title>Regensburger Universitätszentrum für Lehrerbildung</title>');
+  var title_20 = Snap.parse('<title>Zentrum für Weiterbildung</title>');
+  var title_21 = Snap.parse('<title>Sportzentrum</title>');
+  var title_22 = Snap.parse('<title>Rechenzentrum</title>');
+
+
+  var s = Snap("#svgout");
+  s.rect(0,0,50,50).attr({ class: 'item', id: 'ur_1', 'strokeWidth': 0 }).append( title_1 );
+  s.rect(50,0,50,50).attr({ class: 'item', id: 'ur_2', 'strokeWidth': 0 }).append( title_2 );
+  s.rect(100,0,50,50).attr({ class: 'item', id: 'ur_3', 'strokeWidth': 0 }).append( title_3 );
+  s.rect(150,0,50,50).attr({ class: 'item', id: 'ur_4', 'strokeWidth': 0 }).append( title_4 );
+  s.rect(200,0,50,50).attr({ class: 'item', id: 'ur_5', 'strokeWidth': 0 }).append( title_5 );
+  s.rect(250,0,50,50).attr({ class: 'item', id: 'ur_6', 'strokeWidth': 0 }).append( title_6 );
+  s.rect(300,0,50,50).attr({ class: 'item', id: 'ur_7', 'strokeWidth': 0 }).append( title_7 );
+  s.rect(350,0,50,50).attr({ class: 'item', id: 'ur_8', 'strokeWidth': 0 }).append( title_8 );
+  s.rect(400,0,50,50).attr({ class: 'item', id: 'ur_9', 'strokeWidth': 0 }).append( title_9 );
+  s.rect(450,0,50,50).attr({ class: 'item', id: 'ur_10', 'strokeWidth': 0 }).append( title_10 );
+  s.rect(500,0,50,50).attr({ class: 'item', id: 'ur_11', 'strokeWidth': 0 }).append( title_11 );
+  s.rect(550,0,50,50).attr({ class: 'item', id: 'ur_12', 'strokeWidth': 0 }).append( title_12 );
+  s.rect(600,0,50,50).attr({ class: 'item', id: 'ur_13', 'strokeWidth': 0 }).append( title_13 );
+  s.rect(650,0,50,50).attr({ class: 'item', id: 'ur_14', 'strokeWidth': 0 }).append( title_14 );
+  s.rect(700,0,50,50).attr({ class: 'item', id: 'ur_15', 'strokeWidth': 0 }).append( title_15 );
+  s.rect(750,0,50,50).attr({ class: 'item', id: 'ur_16', 'strokeWidth': 0 }).append( title_16 );
+  s.rect(800,0,50,50).attr({ class: 'item', id: 'ur_17', 'strokeWidth': 0 }).append( title_17 );
+  s.rect(850,0,50,50).attr({ class: 'item', id: 'ur_18', 'strokeWidth': 0 }).append( title_18 );
+  s.rect(900,0,50,50).attr({ class: 'item', id: 'ur_19', 'strokeWidth': 0 }).append( title_19 );
+  s.rect(950,0,50,50).attr({ class: 'item', id: 'ur_20', 'strokeWidth': 0 }).append( title_20 );
+  s.rect(1000,0,50,50).attr({ class: 'item', id: 'ur_21', 'strokeWidth': 0 }).append( title_21 );
+  s.rect(1050,0,50,50).attr({ class: 'item', id: 'ur_22', 'strokeWidth': 0 }).append( title_22 );
+
+
+
+  </script>
+
+</body>
+</html>
